@@ -1,0 +1,5 @@
+# Some basic configuration for latexmk. 
+# For more, see https://mirror-hk.koddos.net/CTAN/support/latexmk/latexmk.txt
+
+# use xelatex
+$pdf_mode=5
