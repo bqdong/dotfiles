@@ -77,7 +77,7 @@ if [ -d "$HOME/.config/alacritty/" ]; then
     read opt
     case $opt in
     "Y")
-        mkdir -p ~/.conifg/alacritty/
+        mkdir -p ~/.config/alacritty/
         cp -r ./alacritty/* ~/.config/alacritty/
         log "info" "alacritty config set success"
         ;;
@@ -89,7 +89,7 @@ if [ -d "$HOME/.config/alacritty/" ]; then
         ;;
     esac
 else
-    mkdir -p ~/.conifg/alacritty/
+    mkdir -p ~/.config/alacritty/
     cp -r ./alacritty/* ~/.config/alacritty/
     log "info" "alacritty config set success"
 fi
@@ -101,7 +101,7 @@ if [ -d "$HOME/.config/nvim/" ]; then
     read opt
     case $opt in
     "Y")
-        mkdir -p ~/.conifg/alacritty/
+        mkdir -p ~/.config/nvim/
         cp -r ./nvim/* ~/.config/nvim/
         log "info" "nvim config set success"
         ;;
@@ -113,8 +113,8 @@ if [ -d "$HOME/.config/nvim/" ]; then
         ;;
     esac
 else
-    mkdir -p ~/.conifg/alacritty/
-    cp -r ./alacritty/* ~/.config/nvim/
+    mkdir -p ~/.config/nvim/
+    cp -r ./nvim/* ~/.config/nvim/
     log "info" "nvim config set success"
 fi
 
