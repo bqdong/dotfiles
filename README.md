@@ -10,3 +10,9 @@ This repo is backup of my frequently used tools configuration. Includes:
 
 And a shell script for setup when init a new environment, mainly used
 in Ubuntu for quickly starting new develop environment.
+
+## Tools
+
+- [tokei](https://github.com/XAMPPRocky/tokei) Count code
+- [hexyl](https://github.com/sharkdp/hexyl) Hex viewer
+
