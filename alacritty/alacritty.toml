@@ -1,0 +1,11 @@
+import = [
+  "~/.config/alacritty/window.toml",
+  "~/.config/alacritty/colors.toml",
+  "~/.config/alacritty/font.toml",
+  "~/.config/alacritty/key-bindings.toml",
+  "~/.config/alacritty/mouse-bindings.toml",
+]
+
+[mouse]
+hide_when_typing = true
+

@@ -1,0 +1,8 @@
+[keyboard]
+bindings = [
+{ key = "Space", mods = "Shift|Control", mode = "~Search", action = "ToggleViMode" },
+{ key = "V", mods = "Control|Shift", mode = "~Vi", action = "Paste" },
+{ key = "C", mods = "Control|Shift", action = "Copy" },
+{ key = "N", mods = "Control|Shift", action = "CreateNewWindow" },
+]
+
