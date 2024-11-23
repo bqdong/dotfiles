@@ -15,8 +15,8 @@ blue = '#53BDFA'
 
 magenta = '#FAE994'
 cyan = '#90E1C6'
-white = '#C7C7C7'
 
+white = '#C7C7C7'
 
 # Bright colors
 [colors.bright]
@@ -38,13 +38,18 @@ bindings = [
 ]
 
 [window]
-dimensions = { columns = 100, lines = 30 }
-position = { x = 1000, y = 500 }
+
+dimensions = { columns = 140, lines = 40 }
+position = { x = 700, y = 400 }
 padding = { x = 8, y = 5 }
 dynamic_padding = true
 opacity = 1.0
 title = "bqdong"
 dynamic_title = true
+
+[font]
+normal = { family = "Cascadia Mono", style = "Regular" }
+size = 13
 
 [mouse]
 hide_when_typing = true
