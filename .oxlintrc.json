@@ -1,0 +1,13 @@
+{
+  "plugins": ["import", "typescript", "oxc"],
+  "categories": {
+    "correctness": "warn"
+  },
+
+  "rules": {
+    "eslint/no-unused-vars": "error",
+    "eslint/default-case": "error",
+    "import/default": "warn",
+    "import/named": "warn"
+  }
+}

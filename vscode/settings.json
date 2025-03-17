@@ -1,11 +1,19 @@
 {
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 1000,
-  "javascript.format.enable": true,
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.editor.enablePreview": false,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
-  "files.insertFinalNewline": true
+  "files.insertFinalNewline": true,
+  "[typst]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
+  "[typst-code]": {
+    "editor.wordSeparators": "`~!@#$%^&*()=+[{]}\\|;:'\",.<>/?"
+  },
+  "editor.indentSize": "tabSize",
+  "editor.tabSize": 2,
+  "editor.fontFamily": "\"Maple Mono NF CN\",Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Maple Dark"
 }

@@ -48,7 +48,7 @@ title = "bqdong"
 dynamic_title = true
 
 [font]
-normal = { family = "Cascadia Mono", style = "Regular" }
+normal = { family = "Maple Mono NF CN" }
 size = 13
 
 [mouse]
